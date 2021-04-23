@@ -1,0 +1,37 @@
+p{
+  color: rgba(156, 19, 53, 0.993);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size:  400%;
+}
+
+
+
+
+h1{
+  color: bluewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2{
+  color: rgba(255, 52, 52, 0.74);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: left;
+  font-size:  200%;
+}
+
+h3{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.imagen{
+  background-image: url(https://1.bp.blogspot.com/-0CAxTf1Wfx0/Xvc4ZOhWkSI/AAAAAAAAZ5U/QXxJtjOdUVw14DZk0Rj6WA-g82ShsC5LACLcBGAsYHQ/s1600/1.jpg);
+  background-color: transparent;
+}

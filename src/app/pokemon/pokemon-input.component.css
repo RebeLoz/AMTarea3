@@ -1,0 +1,15 @@
+p{
+  color: rgba(156, 19, 53, 0.993);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size:  400%;
+}
+
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size:  450%;
+}

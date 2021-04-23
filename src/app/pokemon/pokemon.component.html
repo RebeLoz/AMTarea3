@@ -1,0 +1,24 @@
+<div class = "imagen">
+  <p> Mi web de Pokemones </p>
+  <h2>
+    <h3 >
+    <button (click)="onClickActivar()" >
+     <div [ngSwitch]="activo">
+      <h2 *ngSwitchCase="true">Ocultar lista de pokemones capturados</h2>
+      <h2 *ngSwitchCase="false">Mostrar lista de pokemones capturados</h2>
+     </div>
+   </button>
+
+  </h3>
+
+   <div *ngIf="consultando">Capturando pokemones...</div>
+   <div *ngIf="!consultando"></div>
+
+    <div *ngIf="activo">
+    <ul>
+      <li *ngFor="let p of pokemones"(click)="onRemovePokemon(p)">{{p}}</li>
+      </ul>
+   </div>
+  </h2>
+  <br><br><br><br><br><br><br><br>
+</div>

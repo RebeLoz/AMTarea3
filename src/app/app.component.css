@@ -1,0 +1,13 @@
+h1{
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size:  200%;
+}
+
+.imagen{
+  background-image: url(https://i.pinimg.com/originals/66/89/dc/6689dc331be27e66349ce9a4d15ddff3.gif);
+  background-color: transparent;
+}
+
